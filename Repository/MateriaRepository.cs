@@ -1,3 +1,9 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using Domain.Entities;
 using Domain.Enums;
 
@@ -5,10 +11,88 @@ namespace Repository
 {
     public class MateriaRepository
     {
+        private readonly string _rutaArchivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "progreso_materias.json");
+        
+        private readonly JsonSerializerOptions _jsonOptions = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            Converters = { new JsonStringEnumConverter() }
+        };
+
         public List<Semestre> ObtenerSemestres()
         {
+            List<Semestre> planBase = ObtenerPlanDeEstudiosBase();
+
+            List<MateriaEstadoGuardado> estadosGuardados = CargarEstadosDesdeArchivo();
+
+            if (estadosGuardados.Count > 0)
+            {
+                var dicEstados = estadosGuardados.ToDictionary(e => e.NombreMateria, e => e.Estado);
+
+                foreach (var semestre in planBase)
+                {
+                    foreach (var materia in semestre.Materias) 
+                    {
+                        if (dicEstados.TryGetValue(materia.Nombre, out var estadoGuardado))
+                        {
+                            materia.CambiarEstado(estadoGuardado);
+                        }
+                    }
+                }
+            }
+
+            return planBase;
+        }
+
+        public void GuardarProgreso(List<Semestre> semestres)
+        {
+            var estadosAGuardar = new List<MateriaEstadoGuardado>();
+
+            foreach (var semestre in semestres)
+            {
+                foreach (var materia in semestre.Materias)
+                {
+                    estadosAGuardar.Add(new MateriaEstadoGuardado
+                    {
+                        NombreMateria = materia.Nombre,
+                        Estado = materia.Estado 
+                    });
+                }
+            }
+
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(estadosAGuardar, _jsonOptions);
+                File.WriteAllText(_rutaArchivo, jsonString);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al guardar el progreso: {ex.Message}");
+            }
+        }
+
+        private List<MateriaEstadoGuardado> CargarEstadosDesdeArchivo()
+        {
+            if (!File.Exists(_rutaArchivo))
+            {
+                return new List<MateriaEstadoGuardado>();
+            }
+
+            try
+            {
+                string jsonString = File.ReadAllText(_rutaArchivo);
+                return JsonSerializer.Deserialize<List<MateriaEstadoGuardado>>(jsonString, _jsonOptions) 
+                       ?? new List<MateriaEstadoGuardado>();
+            }
+            catch
+            {
+                return new List<MateriaEstadoGuardado>();
+            }
+        }
+        public List<Semestre> ObtenerPlanDeEstudiosBase()
+        {
             //Semestre 1
-            var prog1 = new Materia("Programación 1", "", 0, 1);
+            var prog1 = new Materia("Programación 1", "", 0, 5);
             var calculo1 = new Materia("Cálculo en una variable", "", 0, 7);
             var algebra1 = new Materia("Algebra Lineal", "", 0, 7);
             var taller1 = new Materia("Taller de Tecnologia 1", "", 0, 1);
@@ -55,7 +139,7 @@ namespace Repository
             var SO = new Materia("Sistemas Operativos", "",  6, 6);
             var A2 = new Materia("Estructuras de Datos y Algoritmos 2","",  6, 8);
             var bd1 = new Materia("Base de Datos 1", "",  6, 3);
-            var FIS = new Materia("Fundamentos de Ingenieria de Software", "",  6, 6);
+            var FIS = new Materia("Fundamentos de Ingenieria de Software", "",  6, 5);
             var algebra2 = new Materia("Matematica electiva", "",  6, 7);
             
             SO.Previas.Add(new Previa(arqui1, TipoCreditoPrevia.Parcial));
@@ -78,9 +162,9 @@ namespace Repository
             var semestre5  = new Semestre(5);
             var bd2 = new Materia("Bases de Datos 2", "",  6, 6);
             var da1 = new Materia("Diseño de Aplicaciones 1", "",   6, 6);
-            var admin =new Materia("Materia de Ciencias Sociales", "",  6, 6);
+            var admin =new Materia("Administración General", "",  6, 2);
             var redes = new Materia("Redes", "",  9, 6 );
-            var teoria = new Materia("Teoria de la Computacion", "",  9, 4);
+            var teoria = new Materia("Teoria de la Computacion", "",  9, 8);
             
 
             bd2.Previas.Add(new Previa(bd1, TipoCreditoPrevia.Parcial));
@@ -101,9 +185,9 @@ namespace Repository
             //Semestre 6
             var semestre6  = new Semestre(6);
             var da2 = new Materia("Diseño de Aplicaciones 2", "",  12, 9);
-            var pr = new Materia("Programación de Redes","",   12, 6);
+            var pr = new Materia("Programación de Redes","",   12, 5);
             var taller2 = new Materia("Taller de tecnologia 2", " ", 12, 3);
-            var mach = new Materia("Machine Learning", "", 12, 7);
+            var mach = new Materia("Machine Learning", "", 12, 6);
             var ISA1 = new Materia("Ingeniería de software ágil 1","",  12, 4);
             
 

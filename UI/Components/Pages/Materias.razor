@@ -161,8 +161,8 @@ else
     protected override void OnInitialized()
     {
         semestres = repo.ObtenerSemestres();
-        usuarioActual = new Usuario("Francisco Menchaca");
 
+        usuarioActual = new Usuario("Francisco Menchaca");
 
         foreach (var s in semestres)
         {
@@ -173,26 +173,29 @@ else
         }
     }
 
-    private void SeleccionarMateria(Materia m) => materiaSeleccionada = m;
+    private void SeleccionarMateria(Materia materia)
+    {
+        materiaSeleccionada = materia;
+    }
 
     private void OnEstadoChanged(ChangeEventArgs e)
     {
+        if (materiaSeleccionada == null)
+            return;
+
         if (Enum.TryParse<EstadoMateria>(e.Value?.ToString(), out var nuevoEstado))
         {
-            if (nuevoEstado != EstadoMateria.NoCursada)
+            if (nuevoEstado != EstadoMateria.NoCursada &&
+                !materiaService.PuedeCursar(materiaSeleccionada, usuarioActual))
             {
-                if (!materiaService.PuedeCursar(materiaSeleccionada, usuarioActual))
-                {
-                    StateHasChanged(); 
-                    return;
-                }
+                return;
             }
 
             materiaSeleccionada.CambiarEstado(nuevoEstado);
-            StateHasChanged();
+
+            repo.GuardarProgreso(semestres);
         }
     }
-
 }
 
 

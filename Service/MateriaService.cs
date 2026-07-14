@@ -26,7 +26,6 @@ namespace Services
             return true;
         }
         
-        // Obtiene todas las materias que tienen a 'materiaPadre' como requisito
         public List<Materia> ObtenerMateriasQueDesbloquea(Materia materiaPadre, List<Semestre> todosLosSemestres)
         {
             return todosLosSemestres
