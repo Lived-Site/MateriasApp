@@ -251,7 +251,7 @@ namespace Repository
             var ti = new Materia("Trabajo Integrador", "",20, 2);
             var ingProd = new Materia("Ingenieria de Productos", "" , 20, 5);
             var nuevaTec = new Materia("Materia de Nuevas tecnologias", "", 20, 4);
-            var lenguajes = new Materia("Materia de Lenguaje de Programación", "",   20, 7);
+            var lenguajes = new Materia("Materia de Lenguaje de Programación", "",   0, 7);
 
             arqui3.Previas.Add(new Previa(mach, TipoCreditoPrevia.Total));
             arqui3.Previas.Add(new Previa(pr, TipoCreditoPrevia.Parcial));

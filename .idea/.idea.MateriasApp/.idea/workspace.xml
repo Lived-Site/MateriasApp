@@ -15,11 +15,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25843221-c369-4c12-b67a-5e6fc0a349ab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MateriasApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MateriasApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repository/MateriaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/MateriaRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Components/Pages/Materias.razor" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Components/Pages/Materias.razor" afterDir="false" />
-    </list>
+    <list default="true" id="25843221-c369-4c12-b67a-5e6fc0a349ab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Lived59"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lived59&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Lived-Site/MateriasApp.git",
-    "accountId": "fb295b38-2e64-464e-a68b-9e8c90a3754e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lived-Site/MateriasApp.git&quot;,
+    &quot;accountId&quot;: &quot;fb295b38-2e64-464e-a68b-9e8c90a3754e&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Domain/Entities/Materia.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Entities/MateriaEstadoGuardado.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,23 +65,23 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="1.6239462251590866" />
+      <entry key="MS500" value="2.7298570006565543" />
+      <entry key="S2" value="7.013813231392484" />
+      <entry key="S5" value="16.574113194239075" />
+      <entry key="S10" value="26.140346259737562" />
+      <entry key="S30" value="41.76170178747726" />
+      <entry key="S60" value="49.57312545759441" />
+      <entry key="M2" value="54.71709042693021" />
+      <entry key="M5" value="58.334937719231355" />
+      <entry key="M10" value="59.69828463744855" />
+      <entry key="M15" value="60.239494978875705" />
+      <entry key="M30" value="60.931849303448985" />
+      <entry key="H1" value="61.39527811127389" />
+      <entry key="H2" value="61.67567229301713" />
+      <entry key="H4" value="61.831689848660865" />
+      <entry key="D1" value="61.97103263441053" />
+      <entry key="W1" value="61.995838523913875" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -107,23 +103,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.12327908806166991" />
-      <entry key="MS500" value="0.6579272625145041" />
-      <entry key="S2" value="0.9006259798479292" />
-      <entry key="S5" value="0.958998191704475" />
-      <entry key="S10" value="0.9792845305142296" />
-      <entry key="S30" value="0.9930466058797681" />
-      <entry key="S60" value="0.9965172381247442" />
-      <entry key="M2" value="0.9982571002125376" />
-      <entry key="M5" value="0.9993024752218284" />
-      <entry key="M10" value="0.999651176772092" />
-      <entry key="M15" value="0.99976743765956" />
-      <entry key="M30" value="0.9998837120683385" />
-      <entry key="H1" value="0.9999418543437105" />
-      <entry key="H2" value="0.9999709267492283" />
-      <entry key="H4" value="0.9999854632689559" />
-      <entry key="D1" value="0.9999975771968178" />
-      <entry key="W1" value="0.9999996538849003" />
+      <entry key="MS100" value="1.598343982497643" />
+      <entry key="MS500" value="2.720171039781782" />
+      <entry key="S2" value="7.004017024714546" />
+      <entry key="S5" value="16.565867419638202" />
+      <entry key="S10" value="26.134122295167643" />
+      <entry key="S30" value="41.75791288964216" />
+      <entry key="S60" value="49.57067652403488" />
+      <entry key="M2" value="54.7156685051406" />
+      <entry key="M5" value="58.33430872470835" />
+      <entry key="M10" value="59.69793974582672" />
+      <entry key="M15" value="60.23924086751469" />
+      <entry key="M30" value="60.931693285211814" />
+      <entry key="H1" value="61.395186177618875" />
+      <entry key="H2" value="61.6756214465907" />
+      <entry key="H4" value="61.8316629776747" />
+      <entry key="D1" value="61.97102793241166" />
+      <entry key="W1" value="61.99583784641065" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -137,36 +133,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.UI: http.executor": "Run",
-    ".NET Launch Settings Profile.UI: https.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.UI: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.UI: https.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "SVG",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SVG&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.UI: https">
     <configuration name="UI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/UI/UI.csproj" />
@@ -228,7 +224,7 @@
       <workItem from="1772801798763" duration="6231000" />
       <workItem from="1772895209752" duration="3141000" />
       <workItem from="1772976639031" duration="13264000" />
-      <workItem from="1783993876115" duration="2465000" />
+      <workItem from="1783993876115" duration="2615000" />
     </task>
     <servers />
   </component>
