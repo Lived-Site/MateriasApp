@@ -4,12 +4,21 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+
         <ApplicationIcon>Assets\icono.ico</ApplicationIcon>
+
         <OutputType>WinExe</OutputType>
+
+        <PublishSingleFile>true</PublishSingleFile>
+        <SelfContained>true</SelfContained>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
     </PropertyGroup>
 
+
     <ItemGroup>
-      <ProjectReference Include="..\Service\Service.csproj" />
+        <ProjectReference Include="..\Service\Service.csproj" />
     </ItemGroup>
+
 
 </Project>

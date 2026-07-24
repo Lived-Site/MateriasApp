@@ -61,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/Repository/ProfesorRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Service/MateriaService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Service/UsuarioService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI/ClientCircuitHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UI/Components/MateriaCard.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UI/Components/Pages/AgregarProfesor.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UI/Components/Pages/Materias.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -74,23 +75,23 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.773344603010147" />
-      <entry key="MS500" value="3.744531917083531" />
-      <entry key="S2" value="7.964999376930229" />
-      <entry key="S5" value="19.120854362000667" />
-      <entry key="S10" value="37.55845852904627" />
-      <entry key="S30" value="81.09226213112142" />
-      <entry key="S60" value="106.65299355312963" />
-      <entry key="M2" value="124.68077818668856" />
-      <entry key="M5" value="137.92245152080537" />
-      <entry key="M10" value="142.88038726672002" />
-      <entry key="M15" value="144.66671130626642" />
-      <entry key="M30" value="146.6296239259909" />
-      <entry key="H1" value="147.73942369812409" />
-      <entry key="H2" value="148.346398469374" />
-      <entry key="H4" value="148.66669015691477" />
-      <entry key="D1" value="148.94347973476374" />
-      <entry key="W1" value="148.99190106256586" />
+      <entry key="MS100" value="1.9081863525763119" />
+      <entry key="MS500" value="4.132839015743271" />
+      <entry key="S2" value="9.491960514298363" />
+      <entry key="S5" value="21.246707049301875" />
+      <entry key="S10" value="40.1730806055126" />
+      <entry key="S30" value="95.4585395879219" />
+      <entry key="S60" value="133.88785260866257" />
+      <entry key="M2" value="163.06755635349683" />
+      <entry key="M5" value="185.45619365228833" />
+      <entry key="M10" value="193.99214268274565" />
+      <entry key="M15" value="197.03753608484095" />
+      <entry key="M30" value="200.29503543387005" />
+      <entry key="H1" value="202.06660590702407" />
+      <entry key="H2" value="203.00850411930264" />
+      <entry key="H4" value="203.49735483548844" />
+      <entry key="D1" value="203.91520163130264" />
+      <entry key="W1" value="203.9878599500679" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -112,23 +113,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7364403887048494" />
-      <entry key="MS500" value="3.713972217764565" />
-      <entry key="S2" value="7.950951918423269" />
-      <entry key="S5" value="19.11093656356743" />
-      <entry key="S10" value="37.548876515738144" />
-      <entry key="S30" value="81.08446280603793" />
-      <entry key="S60" value="106.64755778008642" />
-      <entry key="M2" value="124.67748677143119" />
-      <entry key="M5" value="137.92095830917825" />
-      <entry key="M10" value="142.8795887377625" />
-      <entry key="M15" value="144.6661499738183" />
-      <entry key="M30" value="146.6293117778153" />
-      <entry key="H1" value="147.7392529677417" />
-      <entry key="H2" value="148.3463080117943" />
-      <entry key="H4" value="148.66664342152183" />
-      <entry key="D1" value="148.94347171326154" />
-      <entry key="W1" value="148.9918999106244" />
+      <entry key="MS100" value="1.8590041068651142" />
+      <entry key="MS500" value="4.094416949442217" />
+      <entry key="S2" value="9.472844937153459" />
+      <entry key="S5" value="21.231065835173105" />
+      <entry key="S10" value="40.158044294713434" />
+      <entry key="S30" value="95.44674413895422" />
+      <entry key="S60" value="133.87957216089245" />
+      <entry key="M2" value="163.06248856327355" />
+      <entry key="M5" value="185.4538739352692" />
+      <entry key="M10" value="193.9909085151368" />
+      <entry key="M15" value="197.03667919120323" />
+      <entry key="M30" value="200.29457282570306" />
+      <entry key="H1" value="202.06635920794616" />
+      <entry key="H2" value="203.00837547365956" />
+      <entry key="H4" value="203.49728895158913" />
+      <entry key="D1" value="203.91519041044216" />
+      <entry key="W1" value="203.98785834087545" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -165,7 +166,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -238,7 +239,8 @@
       <workItem from="1772976639031" duration="13264000" />
       <workItem from="1783993876115" duration="2615000" />
       <workItem from="1784313152630" duration="445000" />
-      <workItem from="1784917469403" duration="1737000" />
+      <workItem from="1784917469403" duration="2047000" />
+      <workItem from="1784919827453" duration="3677000" />
     </task>
     <servers />
   </component>
