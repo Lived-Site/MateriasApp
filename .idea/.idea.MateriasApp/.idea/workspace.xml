@@ -17,8 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25843221-c369-4c12-b67a-5e6fc0a349ab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MateriasApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MateriasApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UI/UI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,13 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,23 +80,23 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9081863525763119" />
-      <entry key="MS500" value="4.132839015743271" />
-      <entry key="S2" value="9.491960514298363" />
-      <entry key="S5" value="21.246707049301875" />
-      <entry key="S10" value="40.1730806055126" />
-      <entry key="S30" value="95.4585395879219" />
-      <entry key="S60" value="133.88785260866257" />
-      <entry key="M2" value="163.06755635349683" />
-      <entry key="M5" value="185.45619365228833" />
-      <entry key="M10" value="193.99214268274565" />
-      <entry key="M15" value="197.03753608484095" />
-      <entry key="M30" value="200.29503543387005" />
-      <entry key="H1" value="202.06660590702407" />
-      <entry key="H2" value="203.00850411930264" />
-      <entry key="H4" value="203.49735483548844" />
-      <entry key="D1" value="203.91520163130264" />
-      <entry key="W1" value="203.9878599500679" />
+      <entry key="MS100" value="1.6512239284073709" />
+      <entry key="MS500" value="3.9643290792944796" />
+      <entry key="S2" value="10.407576532013987" />
+      <entry key="S5" value="20.576304895355328" />
+      <entry key="S10" value="37.79960116649776" />
+      <entry key="S30" value="98.61012509061095" />
+      <entry key="S60" value="148.17733875618703" />
+      <entry key="M2" value="188.84882799927558" />
+      <entry key="M5" value="221.55417901848026" />
+      <entry key="M10" value="234.30694705189555" />
+      <entry key="M15" value="238.8583935335005" />
+      <entry key="M30" value="243.67587786072897" />
+      <entry key="H1" value="246.24906757216658" />
+      <entry key="H2" value="247.597636720788" />
+      <entry key="H4" value="248.29137942937496" />
+      <entry key="D1" value="248.880795494027" />
+      <entry key="W1" value="248.9829428809515" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -113,23 +118,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.8590041068651142" />
-      <entry key="MS500" value="4.094416949442217" />
-      <entry key="S2" value="9.472844937153459" />
-      <entry key="S5" value="21.231065835173105" />
-      <entry key="S10" value="40.158044294713434" />
-      <entry key="S30" value="95.44674413895422" />
-      <entry key="S60" value="133.87957216089245" />
-      <entry key="M2" value="163.06248856327355" />
-      <entry key="M5" value="185.4538739352692" />
-      <entry key="M10" value="193.9909085151368" />
-      <entry key="M15" value="197.03667919120323" />
-      <entry key="M30" value="200.29457282570306" />
-      <entry key="H1" value="202.06635920794616" />
-      <entry key="H2" value="203.00837547365956" />
-      <entry key="H4" value="203.49728895158913" />
-      <entry key="D1" value="203.91519041044216" />
-      <entry key="W1" value="203.98785834087545" />
+      <entry key="MS100" value="1.6109600383341862" />
+      <entry key="MS500" value="3.9297480073866273" />
+      <entry key="S2" value="10.388230088041945" />
+      <entry key="S5" value="20.561061746373838" />
+      <entry key="S10" value="37.78425168659949" />
+      <entry key="S30" value="98.59656220046423" />
+      <entry key="S60" value="148.16728462087525" />
+      <entry key="M2" value="188.8424605177925" />
+      <entry key="M5" value="221.55119608855546" />
+      <entry key="M10" value="234.30535264207242" />
+      <entry key="M15" value="238.85728979761336" />
+      <entry key="M30" value="243.6752883421988" />
+      <entry key="H1" value="246.2487564719275" />
+      <entry key="H2" value="247.59747561885888" />
+      <entry key="H4" value="248.29129724988366" />
+      <entry key="D1" value="248.8807815474965" />
+      <entry key="W1" value="248.98294088213362" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,39 +148,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.UI: http.executor": "Run",
-    ".NET Launch Settings Profile.UI: https.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender may affect IDE",
-    "Notification.DoNotAsk-WindowsDefender": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.UI: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.UI: https.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender may affect IDE&quot;,
+    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "SVG",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SVG&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.UI: https">
     <configuration name="UI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/UI/UI.csproj" />
@@ -240,7 +245,9 @@
       <workItem from="1783993876115" duration="2615000" />
       <workItem from="1784313152630" duration="445000" />
       <workItem from="1784917469403" duration="2047000" />
-      <workItem from="1784919827453" duration="3677000" />
+      <workItem from="1784919827453" duration="4133000" />
+      <workItem from="1784927394416" duration="457000" />
+      <workItem from="1784984418845" duration="674000" />
     </task>
     <servers />
   </component>
